@@ -1,20 +1,20 @@
-#Objective:
+# Objective:
 
 To play locally downloaded videos and movies in sync across different devices using low bandwidth.
 
-#Working:
+# Working:
 
 The project works in the node.js environment and is divided into two different codebases for server and client. The server codebase is hosted and the client is run locally on the device. The communication between server and client is achieved using socket.io.
 
-#Usage:
+# Usage:
 
 The video that needs to be watched in sync is downloaded and the client codebase is run across all devices. When a user starts a movie the current time along with the start signal is sent to the server which further transmits the signal to all the connected clients, similarly, other signals like pause or seek are transmitted across all the connected clients and video u are able to watch the video in sync even at a low bandwidth
 
-#Prerequisites:
+# Prerequisites:
 
 Node and npm should be installed
 
-#Instructions:
+# Instructions:
 
 <ul>
     <li>Clone the repo to your local device</li>
